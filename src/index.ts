@@ -10,8 +10,6 @@ import router from './routes/index';
 const app = express();
 const PORT = process.env.PORT ? Number(process.env.PORT) : 8080;
 
-console.log('Starting application...');
-
 // Middleware setup
 app.use(cors({
     credentials: true,
